@@ -1,0 +1,5 @@
+.venv
+build
+.DS_Store
+rag_data
+.env

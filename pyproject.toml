@@ -1,0 +1,13 @@
+[project]
+name = "dspy-learning"
+version = "0.0.1"
+authors = [{ name = "Leonard Aronson", email = "laronson21@gmail.com" }]
+description = "Code for learning how to use DSPY"
+requires-python = ">=3.9"
+dependencies = ["black", 'python-dotenv', 'dspy-ai', 'torch']
+
+[tool.distutils.egg_info]
+egg_base = "build"
+
+[tool.black]
+line-length = 120
